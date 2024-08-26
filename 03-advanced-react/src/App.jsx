@@ -11,16 +11,18 @@ import ControlledInputs from './tutorial/06-forms/starter/01-controlled-inputs';
 import UserChallenge from './tutorial/06-forms/starter/02-user-challenge';
 import MultipleEffects from './tutorial/06-forms/starter/03-multiple-inputs';
 import OtherInputs from './tutorial/06-forms/starter/04-other-inputs';
-import UncontrolledInputs from './tutorial/06-forms/starter/05-form-data';
+// import UncontrolledInputs from './tutorial/06-forms/starter/05-form-data';
 import UseRefBasics from './tutorial/07-useRef/starter/01-useRef-basics';
 import ToggleExample from './tutorial/08-custom-hooks/starter/01-toggle';
 import FetchData from './tutorial/08-custom-hooks/starter/02-fetch-data';
 import Navbar from './tutorial/09-context-api/starter/Navbar';
+import UncontrolledInputs from './tutorial/06-forms/starter/05-form-data';
+import ReducerBasics from './tutorial/10-useReducer/starter/01-useReducer';
 
 function App() {
 	return (
 		<div className='container'>
-			<Navbar />
+			<ReducerBasics />
 		</div>
 	);
 }

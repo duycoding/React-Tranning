@@ -1998,10 +1998,10 @@ const UncontrolledInputs = () => {
 		e.preventDefault();
 
 		const formData = new FormData(e.currentTarget);
-		// const name = formData.get('name');
-		// console.log(name);
+		const name = formData.get('name');
+		console.log(name);
 		// console.log([...formData.entries()]);
-		const newUser = Object.fromEntries(formData);
+		const newUser = Object.fromEntries(e.currentTarget);
 		// do something (post request, add to list, etc)
 		console.log(newUser);
 		// Gotcha - re-render won't clear out the values
